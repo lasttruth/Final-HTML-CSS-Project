@@ -38,7 +38,7 @@ a{
 
 
 .container{
-    margin: 48px;
+    margin: 0 48px;
 }
 
 .row{
@@ -47,6 +47,9 @@ a{
     margin: 0 auto;
 }
 
+span{
+    color: rgb(100, 21, 255);
+}
 
 
 
@@ -108,4 +111,94 @@ nav{
 
 .nav__link--btn:hover{
     background-color: rgb(69, 12, 184);
+}
+
+/*
+
+header
+
+*/
+
+header .row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 48px 0 96px 0;
+}
+
+.header__description{
+    width: 40%;
+}
+
+.header__title{
+    font-size: 48PX;
+    color: rgb(26, 32, 44);
+}
+
+.header__para{
+    font-size: 18px;
+    color: rgb(36, 62, 99);
+    margin: 32px 0;
+    line-height: 24px;
+}
+
+.header__input--wrapper{
+    position: relative;
+    max-width: 448px;
+    margin: 40px 0;
+}
+
+.header__input{
+    padding: 20px 192px 20px 32px;
+    border-radius: 9999px;
+    border-style: solid;
+    border-color: rgb(226, 232, 240);
+    font-size: 100%;
+    outline: none;
+    width: 100%;
+}
+
+.header__btn{
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 160px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(100, 21, 255);
+    color: white;
+    border: none;
+    border-radius: 9999px;
+    font-weight: 700;
+    font-size: 100%;
+    margin-right: 8px;
+    cursor: pointer;
+}
+
+.customers__wrapper{
+    margin-top: 80px;
+}
+
+.customers__para{
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 12px;
+    letter-spacing: 0.6px;
+    color: rgb(160, 174, 192);
+}
+
+.customers__img{
+    width: 80%;
+    opacity: 0.5;
+    margin-top: 16px;
+}
+
+.header__img--wrapper{
+    width: 60%;
+}
+
+.header__img{
+    width: 100%;
 }
