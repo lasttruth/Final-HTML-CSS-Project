@@ -47,11 +47,18 @@ a{
     margin: 0 auto;
 }
 
-span{
+.purple{
     color: rgb(100, 21, 255);
 }
 
-
+h5{
+    text-transform: uppercase;
+    font-size: 16px;
+    color: rgb(100, 21, 255);
+    font-weight: 700;
+    letter-spacing: 1.6px;
+    margin: 0px 0px 16px;
+}
 
 /*
 
@@ -216,4 +223,80 @@ header .row{
 
 .header__img{
     width: 100%;
+}
+
+
+/*
+
+Features
+
+*/
+
+#features .row{
+    padding: 96px 0px 96px 0px;
+    text-align: center;
+}
+
+#features h1{
+    font-weight: 900;
+    color: #243e63;
+    font-size: 48px;
+}
+
+#features p{
+    font-size: 18px;
+    max-width: 576px;
+    margin: 0 auto;
+    color: #7c8ba1;
+    font-weight: 500;
+    margin-top: 16px;
+    line-height: 1.625;
+    margin-bottom: 40px;
+}
+
+.services__grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.services__wrapper{
+    width: calc(100% / 3) ;
+    max-width: 384px;
+}
+
+.services{
+    display: flex;
+    align-items: flex-start;
+    text-align: left;
+    margin: 0 16px;
+    padding: 32px 8px;
+}
+
+.imageContainer{
+    border: 1px solid rgb(226, 232, 240);
+    text-align: center;
+    border-radius: 9999px;
+    flex-shrink: 0;
+    padding: 20px;
+}
+
+.textContainer{
+    margin-left: 16px;
+    margin-top: 8px;
+    max-width: 200px;
+}
+
+.title{
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 1;
+    letter-spacing: .4px;
+    color: #243e63;
+}
+
+.description{
+    margin: 16px 0px 0px;
+    font-size: 16px;
+    line-height: 2;
 }
