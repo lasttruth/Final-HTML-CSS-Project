@@ -35,6 +35,14 @@ a{
     transition: all 300ms ease;
 }
 
+h5{
+    text-transform: uppercase;
+    font-size: 16px;
+    color: rgb(100, 21, 255);
+    font-weight: 700;
+    letter-spacing: 1.6px;
+    margin: 0px 0px 16px;
+}
 
 
 .container{
@@ -51,14 +59,24 @@ a{
     color: rgb(100, 21, 255);
 }
 
-h5{
-    text-transform: uppercase;
-    font-size: 16px;
-    color: rgb(100, 21, 255);
+.btn{
+    margin-top: 32px;
+    background-color: rgb(100, 21, 255);
+    border: none;
+    color: white;
+    font-size: 0.875rem;
+    padding: 12px 32px;
+    border-radius: 9999px;
     font-weight: 700;
-    letter-spacing: 1.6px;
-    margin: 0px 0px 16px;
+    cursor: pointer;
+    transition: all 300ms ease;
+
 }
+
+.btn:hover{
+    background-color: rgb(69, 12, 184);
+}
+
 
 /*
 
@@ -299,4 +317,48 @@ Features
     margin: 16px 0px 0px;
     font-size: 16px;
     line-height: 2;
+}
+
+/*
+
+
+quality
+
+*/
+
+#quality .row{
+    padding: 96px 0px 96px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#quality h1{
+    max-width: 600px;
+    font-size: 48px;
+    font-weight: 900;
+    color: #243e63;
+    margin-top: 16px;
+    line-height: 1.25;
+}
+
+#quality p{
+    font-size: 18px;
+    margin-top: 16px;
+    font-weight: 500;
+    line-height: 1.625;
+}
+
+#quality figure{
+    width: 50%;
+}
+
+#quality img{
+    width: 100%;
+    border: 1px solid rgba(0, 0, 0, .1);
+}
+
+.quality__description--wrapper{
+    width: 50%;
+    margin: 64px;
 }
