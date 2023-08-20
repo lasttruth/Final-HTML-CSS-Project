@@ -57,7 +57,8 @@ h5{
 
 #quality .row,
 #steps .row,
-#values .row{
+#values .row,
+#testimonials .row{
     display: flex;
     align-items: center;
     padding: 96px 0px 96px 0px;
@@ -65,13 +66,15 @@ h5{
 
 #quality figure,
 #steps figure,
-#values figure{
+#values figure,
+#testimonials figure{
     width: 50%;
 }
 
 #quality img,
 #steps img,
-#values img{
+#values img,
+#testimonials img{
     width: 100%;   
 }
 
@@ -751,6 +754,92 @@ Pricing
     transform: scale(1.01);
 }
 
+/*
+
+Tesimonials
+
+*/
+
+#testimonials .row{
+    justify-content: center;
+}
+
+#testimonials .description{
+    width: 50%;
+    padding-left: 64px;
+}
+
+#testimonials h1{
+    font-weight: 900;
+    color: #243e63;
+    font-size: 48px;
+    letter-spacing: 0.025em;
+}
+
+.description__para{
+    margin-top: 24px;
+    font-size: 18px;
+    color: #7c8ba1;
+    line-height: 1.625;
+    font-weight: 500;
+}
+
+.testimonial__description{
+    margin-top: 40px;
+
+}
+
+.ratting__wrapper{
+    color: rgb(246, 173, 85);
+}
+
+.testimonial__title{
+    font-size: 20px;
+    font-weight: 700;
+    color: rgb(36, 62, 99);
+}
+
+.testimonial__para{
+    margin-bottom: 40px;
+    margin-top: 16px;
+    font-weight: 500;
+    color: rgb(74, 85, 184);
+    line-height: 1.625;
+}
+
+.profile{
+    display: flex;
+    align-items: center;
+    margin: 24px;
+}
+
+.profile__img{
+    display: block;
+    height: 80px;
+    width: 80px;
+    border-radius: 9999px;
+    max-width: 100%;
+}
+
+.profile__details--wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 24px;
+    text-align: left;
+}
+
+.tesimonial__title--name{
+    font-size: 20px;
+    font-weight: 700;
+    color: rgb(36, 62, 99);
+    line-height: 30px;
+}
+
+.profile__description{
+    font-weight: 500;
+    color: rgb(124, 139, 161);
+}
 /*
 
 feather icons
