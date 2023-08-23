@@ -58,7 +58,8 @@ h5{
 #quality .row,
 #steps .row,
 #values .row,
-#testimonials .row{
+#testimonials .row,
+#getstarted .row{
     display: flex;
     align-items: center;
     padding: 96px 0px 96px 0px;
@@ -900,6 +901,87 @@ FAQS
 .faqs__text--para{
     font-size: 20px;
     font-weight: 600;
+}
+
+/*
+
+Get Started
+
+*/
+
+.getstarted__wrapper{
+    padding: 96px 0;
+    background-color: rgb(100, 21, 255);
+    position: relative;
+    border-radius: 8px;
+}
+
+.getstarted{
+    position: relative;
+    margin: o auto;
+    display: flex;
+    align-items: center;
+    padding: 0 32px;
+    flex-direction: row;
+    text-align: left;
+    justify-content: center;
+}
+
+.getstarted__text--wrapper{
+    width: 50%;
+    max-width: 32rem;
+}
+
+.getstarted__text{
+    font-size: 30px;
+    color: rgb(247 250 252);
+    text-transform: none;
+    margin: 0;
+    letter-spacing: normal;
+}
+
+.getstarted__btn--wrapper{
+    margin-top: 0px;
+    justify-content: flex-end;
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    max-width: 512px;
+}
+
+.getstarted__btn{
+    margin-top: 0px;
+    background-color: rgb(245, 101, 101);
+    color: rgb(247 250 252);
+    padding: 20px 40px;
+    margin-right: 32px;
+    width: auto;
+    border-radius: 9999px;
+    border-width: 1px;
+    border-color: transparent;
+    font-weight: 700;
+    font-size: 16px;
+    letter-spacing: 0.025rem;
+    text-decoration: none;
+    transition: all 300ms ease-in-out;
+}
+
+.contact__btn{
+    margin-top: 0px;
+    background-color: transparent;
+    color: rgb(247 250 252);
+    padding: 20px 40px;
+    margin-right: 32px;
+    width: auto;
+    border-radius: 9999px;
+    border-width: 1px;
+    border-color: rgb(247 250 252);
+    border-style: solid;
+    font-weight: 700;
+    font-size: 16px;
+    letter-spacing: 0.025rem;
+    text-decoration: none;
+    transition: all 300ms ease-in-out;
 }
 
 /*
