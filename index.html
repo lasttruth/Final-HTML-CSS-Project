@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Treact Clone</title>
     <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
     <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
     <script
       src="https://kit.fontawesome.com/c8e4d183c2.js"
@@ -14,7 +15,13 @@
   </head>
 
   <body>
-    <section id="landing">
+    <section id="landing" data-aos="fade-right"
+    data-aos-offset="500"
+    data-aos-delay="50"
+    data-aos-duration="300"
+    data-aos-easing="ease-in-out"
+    data-aos-mirror="true"
+    data-aos-once="true">
       <div class="container">
         <div class="row">
           <nav>
@@ -112,7 +119,14 @@
       </header>
     </section>
 
-    <section id="features">
+    <section id="features" data-aos="fade-left"
+    data-aos-offset="100"
+    data-aos-delay="50"
+    data-aos-duration="300"
+    data-aos-easing="ease-in-out"
+    data-aos-mirror="true"
+    data-aos-once="true"
+    data-aos-anchor-placement="center">
       <div class="container">
         <div class="row">
           <h5>
@@ -214,7 +228,14 @@
       </div>
     </section>
 
-    <section id="quality">
+    <section id="quality" data-aos="fade-right"
+    data-aos-offset="500"
+    data-aos-delay="100"
+    data-aos-duration="300"
+    data-aos-easing="ease-in-out"
+    data-aos-mirror="true"
+    data-aos-once="true"
+    data-aos-anchor-placement="center">
       <div class="container">
         <div class="row">
           <div class="quality__description--wrapper">
@@ -239,7 +260,14 @@
       </div>
     </section>
 
-    <section id="steps">
+    <section id="steps" data-aos="fade-left"
+    data-aos-offset="500"
+    data-aos-delay="50"
+    data-aos-duration="300"
+    data-aos-easing="ease-in-out"
+    data-aos-mirror="true"
+    data-aos-once="true"
+    data-aos-anchor-placement="center">
       <div class="container">
         <div class="row">
           <figure>
@@ -286,7 +314,14 @@
       </div>
     </section>
 
-    <section id="values">
+    <section id="values" data-aos="fade-right"
+    data-aos-offset="500"
+    data-aos-delay="50"
+    data-aos-duration="300"
+    data-aos-easing="ease-in-out"
+    data-aos-mirror="true"
+    data-aos-once="true"
+    data-aos-anchor-placement="center">
       <div class="container">
         <div class="row">
           <div class="values__description">
@@ -338,7 +373,14 @@
       </div>
     </section>
 
-    <section id="pricing">
+    <section id="pricing" data-aos="fade-left"
+    data-aos-offset="500"
+    data-aos-delay="50"
+    data-aos-duration="300"
+    data-aos-easing="ease-in-out"
+    data-aos-mirror="true"
+    data-aos-once="true"
+    data-aos-anchor-placement="center">
       <div class="container">
         <div class="row">
           <h5>Pricing</h5>
@@ -439,7 +481,14 @@
       </div>
     </section>
 
-    <section id="testimonials">
+    <section id="testimonials" data-aos="fade-right"
+    data-aos-offset="500"
+    data-aos-delay="50"
+    data-aos-duration="300"
+    data-aos-easing="ease-in-out"
+    data-aos-mirror="true"
+    data-aos-once="true"
+    data-aos-anchor-placement="center">
       <div class="container">
         <div class="row">
           <figure>
@@ -490,7 +539,14 @@
       </div>
     </section>
 
-    <section id="faqs">
+    <section id="faqs" data-aos="fade-left"
+    data-aos-offset="500"
+    data-aos-delay="50"
+    data-aos-duration="300"
+    data-aos-easing="ease-in-out"
+    data-aos-mirror="true"
+    data-aos-once="true"
+    data-aos-anchor-placement="center">
       <div class="container">
         <div class="row">
           <h5>faqs</h5>
@@ -639,7 +695,14 @@
       </div>
     </section>
 
-    <section id="getstarted">
+    <section id="getstarted" data-aos="fade-right"
+    data-aos-offset="500"
+    data-aos-delay="50"
+    data-aos-duration="300"
+    data-aos-easing="ease-in-out"
+    data-aos-mirror="true"
+    data-aos-once="true"
+    data-aos-anchor-placement="center">
       <div class="container">
         <div class="row">
           <div class="getstarted__wrapper">
@@ -656,7 +719,14 @@
         </div>
       </div>
     </section>
-    <section id="footer">
+    <section id="footer" data-aos="fade-left"
+    data-aos-offset="100"
+    data-aos-delay="50"
+    data-aos-duration="300"
+    data-aos-easing="ease-in-out"
+    data-aos-mirror="true"
+    data-aos-once="true"
+    data-aos-anchor-placement="center">>
       <footer class="footer__row">
         <div class="footer__content--wrapper">
           <div class="footer__content">
@@ -778,6 +848,10 @@
     </section>
     <script>
       feather.replace();
+    </script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
     </script>
     <script src="index.js"></script>
   </body>
